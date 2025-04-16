@@ -1,32 +1,160 @@
 .footer {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
   
-  .footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-  }
-  .footer-content p{
-    color: white;
-  }
-  
-  .footer-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .footer-nav li {
-    margin: 0 10px;
-  }
-  
-  .footer-nav a {
-    color: white;
-    text-decoration: none;
-  }
+  background: #003a1b;
+  color: white;
+  padding: 10px 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact,
+.footer-social {
+  width: 23%;
+}
+
+.footer-about h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-about p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.footer-links h4,
+.footer-contact h4,
+.footer-social h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #b2e5c2;
+  text-decoration: none;
+  font-size: 14px;
+}
+.log img{
+ border-radius: 90%;
+ width: 90px;
+
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-contact p {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #ddd;
+  margin-left: -10rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #b2e5c2;
+}
+
+.footer-bottom p{
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  font-size: 20px;
+  color: #ddd;
+}
+
+@media (max-width: 1200px) {
+.footer-container {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact,
+.footer-social {
+  width: 45%;
+}
+}
+
+@media (max-width: 768px) {
+.footer {
+  text-align: center;
+  padding: 40px 5%;
+}
+
+.footer-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact,
+.footer-social {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  justify-content: center;
+}
+}
+
+@media (max-width: 480px) {
+.footer {
+  padding: 30px 5%;
+}
+
+.footer-about h3,
+.footer-links h4,
+.footer-contact h4,
+.footer-social h4 {
+  font-size: 16px;
+}
+
+.footer-about p,
+.footer-contact p,
+.footer-links ul li a {
+  font-size: 12px;
+}
+
+.social-icons a {
+  font-size: 16px;
+}
+
+.footer-bottom {
+  font-size: 12px;
+}
+}
