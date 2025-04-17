@@ -59,18 +59,20 @@
    margin-left: 2rem;
   
 }
-.locatoion h2{
+.location h2{
     font-size: 40px;
+   margin-bottom: 3rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .location p {
     font-size: 20px;
+    margin-top:1rem;
     color: black;
   }
   .location {
     flex: 1;
     margin-left: 50rem;
-    margin-top: -30rem;
+    margin-top: -25rem;
     margin-bottom: 20rem;
   }
  

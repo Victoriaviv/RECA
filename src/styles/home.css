@@ -93,7 +93,7 @@ font-weight: bold;
   }
   .projects h1{
     color: black;
-    margin-top:-1rem;
+    margin:50px 10px 50px 10px;
   }
   
   
@@ -103,6 +103,7 @@ font-weight: bold;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+    margin-bottom: 3rem;
   }
   
   .project-card {
