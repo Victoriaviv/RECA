@@ -18,6 +18,7 @@
 .footer-contact,
 .footer-social {
   width: 23%;
+  margin-top: 3rem;
 }
 
 .footer-about h3 {
@@ -35,13 +36,14 @@
 .footer-links h4,
 .footer-contact h4,
 .footer-social h4 {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 .footer-links ul {
   list-style: none;
   padding: 0;
+  margin-top: 1rem;
 }
 
 .footer-links ul li {
@@ -64,6 +66,7 @@
 }
 
 .footer-contact p {
+  margin-top: 2rem;
   font-size: 20px;
   margin-bottom: 8px;
   color: #ddd;
