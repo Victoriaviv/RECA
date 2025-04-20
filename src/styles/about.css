@@ -122,3 +122,74 @@
   h3 span{
     color: green;
   }
+  @media screen and (max-width: 768px) {
+    .about {
+      height: 200px;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .about h2 {
+      font-size: 36px;
+      padding-top: 2rem;
+    }
+  
+    .mission,
+    .vision {
+      width: 90%;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+  
+    .mission h2,
+    .vision h3 {
+      font-size: 24px;
+    }
+  
+    .mission-text,
+    .vision-text {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  
+    .leaders-list {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding: 0 1rem;
+    }
+  
+    .leader {
+      width: 90%;
+      height: auto;
+      padding-bottom: 1rem;
+    }
+  
+    .leader img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .leader h4 {
+      font-size: 18px;
+      margin: 1rem 0 0.5rem;
+      text-align: center;
+    }
+  
+    .leader p {
+      font-size: 16px;
+      text-align: center;
+      margin: 0 1rem;
+    }
+  
+    .meet h2 {
+      font-size: 18px;
+      margin-top: 2rem;
+    }
+  
+    .meet h3 {
+      font-size: 24px;
+      padding: 0 1rem;
+    }
+  }
+  

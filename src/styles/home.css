@@ -136,4 +136,77 @@ font-weight: bold;
     font-weight: bold;
     margin: 0;
   }
-  
+  /* ========== Responsive Design ========== */
+@media screen and (max-width: 768px) {
+  .home {
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .home header h1 {
+    font-size: 36px;
+    margin: 2rem 0 1rem;
+    margin-left: 0;
+  }
+
+  .home header p {
+    font-size: 18px;
+    margin: 0 1rem;
+  }
+
+  .history {
+    margin: 2rem 1rem;
+    padding: 1rem;
+  }
+
+  .history h3 {
+    font-size: 30px;
+  }
+
+  .history p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .projects h1 {
+    font-size: 28px;
+    margin: 2rem 0;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 90%;
+    height: auto;
+  }
+
+  .project-card img {
+    height: 180px;
+  }
+
+  .project-info h3 {
+    font-size: 14px;
+  }
+
+  h1, h2 {
+    font-size: 32px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  p1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
