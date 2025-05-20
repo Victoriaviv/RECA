@@ -5,6 +5,7 @@ import Francois from "../assets/Francois.jpeg"
 import Nigabe from "../assets/Nigabe.jpeg"
 import emmanuel from "../assets/emmanuel.jpeg"
 import download1 from "../assets/download1.jpeg"
+
 function About() {
   
   const leaders = [
