@@ -17,7 +17,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:5000/contact/contact', {
+      const response = await fetch('https://reca-backend-1.onrender.com/contact/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
